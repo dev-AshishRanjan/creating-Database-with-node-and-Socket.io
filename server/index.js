@@ -15,7 +15,7 @@ app.use(cors());
 
 const io= new Server(server,{
     cors: {
-        origin: 'https://localhost:3000',
+        origin: 'https://database144.netlify.app',
         method: ["GET","POST"],
         credentials: true
     },
